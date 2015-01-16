@@ -3,7 +3,7 @@ url: "http://ursb.org"                          # 地址
 title: nodevc                                   # 标题
 email: root@nodevc.org                            # 邮箱
 description: 简记，为简单而记！                   # 简介
-duoshuo_user: nodevc                            # 多说账号
+duoshuo_user: h01ger                            # 多说账号
 baidutongji: 39aaf5727abfcedefcdeecf3aad6d895   # 百度统计ID
 
 # 编译设置
