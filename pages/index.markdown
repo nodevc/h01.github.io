@@ -104,7 +104,7 @@ var mainmenu = bmenu.init([
 		text: 'GitHub',
 		icon: 'glyphicon-paperclip',
 		callback: function(){
-			window.open("https://github.com/h01", "_blank");
+			window.open("https://github.com/nodevc", "_blank");
 		}
 	}]
 },{
