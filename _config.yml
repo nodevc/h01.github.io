@@ -4,7 +4,7 @@ title: NodeVc                                   # 标题
 email: root@3asec.com                            # 邮箱
 description: 简记，为简单而记！                   # 简介
 duoshuo_user: nodevc                            # 多说账号
-baidutongji: 39aaf5727abfcedefcdeecf3aad6d895   # 百度统计ID
+baidutongji: fdd5f2dd4e4a585a6cddc347f109f1f3   # 百度统计ID
 
 # 编译设置
 markdown: kramdown                              # MarkDown
