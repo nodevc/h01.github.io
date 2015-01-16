@@ -1,0 +1,9 @@
+category:    NodeJs
+layout:     post
+title:      第一篇Blog
+desc:       记录第一篇Blog
+tags:       [Node.js,Node.js操作mysql]
+---
+[code:shell:edoc]
+第一篇blog测试！
+[codend]
