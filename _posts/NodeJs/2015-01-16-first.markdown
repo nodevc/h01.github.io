@@ -58,5 +58,5 @@ server.listen(80);
 [code:shell:edoc]
 $node test.js
 [codend]
-再用浏览器访问[http://127.0.0.1](http://127.0.0.1),就能获取到一个简单的html页面。
+再用浏览器访问[http://127.0.0.1](http://127.0.0.1),就能获取到一个简单的html页面。          
 ![01](/static/upload/img/01.jpg)
