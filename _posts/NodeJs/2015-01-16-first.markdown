@@ -17,7 +17,7 @@ var server = http.createServer(function (req,res){
 });
 server.listen(80);
 [codend]
-然后你用浏览器访问[http://127.0.0.1](http://127.0.0.1)就能得到输出Hello World的页面了！
+然后你用浏览器访问[http://127.0.0.1](http://127.0.0.1)就能得到输出Hello World的页面了。
 ####Node.js的安装
 Node.js的安装非常简单，`windows`和`OS X`只需要带[官网](http://nodejs.org)下载对应操作系统的对应版本\(windows下载msi包，OS X下载pkg包\)。下载以后运行程勋安装，安装完成以后，在`终端`输入`node -version`。输出Node.js的版本号，就说明安装正确。
 `*nix系`的系统中编译Node.js，只需要确保系统中有C\C++编译器以及OpenSSL库就可以了，安装命令如下：
