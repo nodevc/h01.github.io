@@ -31,3 +31,32 @@ $make
 $make test
 $make install
 [codend]
+#### NPM
+NPM的全称是Node Package Manager。是一个NodeJS包管理和分发工具，已经成为了非官方的发布Node模块（包）的标准。
+NPM有两个命令可以用来搜索和查看模块：`search`和`view`。
+例如，要搜索和socke相关的模块，可以执行以下命令：
+[code:shell:edoc]
+$npm search socket
+[codend]
+该命令会在已发布的众多模块中的`name`，`tags`以及`description`字段中搜索此关键字，并返回匹配的模块。
+找到了感兴趣的模块后，通过运行npm view命令，后面跟要查看的模块名，就能看到package json文件以及与NPM仓库相关的属性，例如：
+[code:shell:edoc]
+$npm view socket.io
+[codend]
+
+####运行一个简单的例子
+新建一个文件test.js，输入如下代码：
+[code:shell:edoc]
+var http = require('http');
+var server =http.createServer(function (req,res){
+	res.writeHead(200,{'Content-Type': 'text/html'});
+	res.end('<marquee>Hello Node.js!</marquee>');
+});
+server.listen(80);
+[codend]
+终端中运行命令：
+[code:shell:edoc]
+$node test.js
+[codend]
+再用浏览器访问[http://127.0.0.1](http://127.0.0.1),就能获取到一个简单的html页面。
+![01](/static/upload/img/01.jpg)
