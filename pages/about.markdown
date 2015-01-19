@@ -5,4 +5,4 @@ permalink: /about/
 icon: glyphicon-heart
 ---
 #### NodeVc - 简记
-> 2015 Happy new YeaR :)
+> 本博客主要以原创为主。博主主要关注编程（Node.js和C语言）和网络安全。不求高大上，但求实精用。
